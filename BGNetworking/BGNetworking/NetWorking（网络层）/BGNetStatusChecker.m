@@ -6,19 +6,19 @@
 //  Copyright © 2017年 sihan. All rights reserved.
 //
 
-#import "NetStatusData.h"
+#import "BGNetStatusChecker.h"
 #import "UIView+Extension.h"
 #import "DefineHeader.h"
 
-static NetStatusData *_netStatus = nil;
+static BGNetStatusChecker *_netStatus = nil;
 
-@implementation NetStatusData
+@implementation BGNetStatusChecker
 
-+(NetStatusData *)shareNetStatus {
++(BGNetStatusChecker *)shareNetStatus {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         if (!_netStatus) {
-            _netStatus = [NetStatusData new];
+            _netStatus = [BGNetStatusChecker new];
         }
     });
     return _netStatus;

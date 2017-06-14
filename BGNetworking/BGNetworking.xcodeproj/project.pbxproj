@@ -17,9 +17,9 @@
 		EEC9F9D01EEA14890037CA62 /* BGNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9CF1EEA14890037CA62 /* BGNetworkingUITests.m */; };
 		EEC9F9E91EEA14B80037CA62 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9DF1EEA14B80037CA62 /* AFAppDotNetAPIClient.m */; };
 		EEC9F9EA1EEA14B80037CA62 /* BGNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9E11EEA14B80037CA62 /* BGNetworking.m */; };
-		EEC9F9EB1EEA14B80037CA62 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9E31EEA14B80037CA62 /* Model.m */; };
-		EEC9F9EC1EEA14B80037CA62 /* NetStatusData.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9E51EEA14B80037CA62 /* NetStatusData.m */; };
-		EEC9F9ED1EEA14B80037CA62 /* NSObject+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9E71EEA14B80037CA62 /* NSObject+Request.m */; };
+		EEC9F9EB1EEA14B80037CA62 /* BGBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9E31EEA14B80037CA62 /* BGBaseModel.m */; };
+		EEC9F9EC1EEA14B80037CA62 /* BGNetStatusChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9E51EEA14B80037CA62 /* BGNetStatusChecker.m */; };
+		EEC9F9ED1EEA14B80037CA62 /* NSObject+BGNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9E71EEA14B80037CA62 /* NSObject+BGNetworking.m */; };
 		EEC9F9EE1EEA14B80037CA62 /* public.cer in Resources */ = {isa = PBXBuildFile; fileRef = EEC9F9E81EEA14B80037CA62 /* public.cer */; };
 		EEC9F9F51EEA14F40037CA62 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9F11EEA14F40037CA62 /* MBProgressHUD+MJ.m */; };
 		EEC9F9F61EEA14F40037CA62 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEC9F9F21EEA14F40037CA62 /* MBProgressHUD.bundle */; };
@@ -71,12 +71,12 @@
 		EEC9F9DF1EEA14B80037CA62 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		EEC9F9E01EEA14B80037CA62 /* BGNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGNetworking.h; sourceTree = "<group>"; };
 		EEC9F9E11EEA14B80037CA62 /* BGNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGNetworking.m; sourceTree = "<group>"; };
-		EEC9F9E21EEA14B80037CA62 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
-		EEC9F9E31EEA14B80037CA62 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
-		EEC9F9E41EEA14B80037CA62 /* NetStatusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStatusData.h; sourceTree = "<group>"; };
-		EEC9F9E51EEA14B80037CA62 /* NetStatusData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStatusData.m; sourceTree = "<group>"; };
-		EEC9F9E61EEA14B80037CA62 /* NSObject+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Request.h"; sourceTree = "<group>"; };
-		EEC9F9E71EEA14B80037CA62 /* NSObject+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Request.m"; sourceTree = "<group>"; };
+		EEC9F9E21EEA14B80037CA62 /* BGBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGBaseModel.h; sourceTree = "<group>"; };
+		EEC9F9E31EEA14B80037CA62 /* BGBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGBaseModel.m; sourceTree = "<group>"; };
+		EEC9F9E41EEA14B80037CA62 /* BGNetStatusChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGNetStatusChecker.h; sourceTree = "<group>"; };
+		EEC9F9E51EEA14B80037CA62 /* BGNetStatusChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGNetStatusChecker.m; sourceTree = "<group>"; };
+		EEC9F9E61EEA14B80037CA62 /* NSObject+BGNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BGNetworking.h"; sourceTree = "<group>"; };
+		EEC9F9E71EEA14B80037CA62 /* NSObject+BGNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BGNetworking.m"; sourceTree = "<group>"; };
 		EEC9F9E81EEA14B80037CA62 /* public.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = public.cer; sourceTree = "<group>"; };
 		EEC9F9F01EEA14F40037CA62 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		EEC9F9F11EEA14F40037CA62 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
@@ -96,9 +96,9 @@
 		EEC9FA031EEA15040037CA62 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		EEC9FA041EEA15040037CA62 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		EEC9FA051EEA15040037CA62 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		EEC9FA0C1EEA15BB0037CA62 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../UIView+Extension.h"; sourceTree = "<group>"; };
-		EEC9FA0D1EEA15BB0037CA62 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../UIView+Extension.m"; sourceTree = "<group>"; };
-		EEC9FA0F1EEA15EB0037CA62 /* DefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		EEC9FA0C1EEA15BB0037CA62 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EEC9FA0D1EEA15BB0037CA62 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EEC9FA0F1EEA15EB0037CA62 /* DefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefineHeader.h; path = "NetWorking（网络层）/DefineHeader.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +152,9 @@
 				EEC9F9DD1EEA14B80037CA62 /* NetWorking（网络层） */,
 				EEC9F9AD1EEA14880037CA62 /* AppDelegate.h */,
 				EEC9F9AE1EEA14880037CA62 /* AppDelegate.m */,
+				EEC9FA0F1EEA15EB0037CA62 /* DefineHeader.h */,
+				EEC9FA0C1EEA15BB0037CA62 /* UIView+Extension.h */,
+				EEC9FA0D1EEA15BB0037CA62 /* UIView+Extension.m */,
 				EEC9F9B01EEA14880037CA62 /* ViewController.h */,
 				EEC9F9B11EEA14880037CA62 /* ViewController.m */,
 				EEC9F9B31EEA14880037CA62 /* Main.storyboard */,
@@ -198,15 +201,12 @@
 				EEC9F9DF1EEA14B80037CA62 /* AFAppDotNetAPIClient.m */,
 				EEC9F9E01EEA14B80037CA62 /* BGNetworking.h */,
 				EEC9F9E11EEA14B80037CA62 /* BGNetworking.m */,
-				EEC9F9E21EEA14B80037CA62 /* Model.h */,
-				EEC9F9E31EEA14B80037CA62 /* Model.m */,
-				EEC9F9E41EEA14B80037CA62 /* NetStatusData.h */,
-				EEC9F9E51EEA14B80037CA62 /* NetStatusData.m */,
-				EEC9F9E61EEA14B80037CA62 /* NSObject+Request.h */,
-				EEC9F9E71EEA14B80037CA62 /* NSObject+Request.m */,
-				EEC9FA0F1EEA15EB0037CA62 /* DefineHeader.h */,
-				EEC9FA0C1EEA15BB0037CA62 /* UIView+Extension.h */,
-				EEC9FA0D1EEA15BB0037CA62 /* UIView+Extension.m */,
+				EEC9F9E21EEA14B80037CA62 /* BGBaseModel.h */,
+				EEC9F9E31EEA14B80037CA62 /* BGBaseModel.m */,
+				EEC9F9E41EEA14B80037CA62 /* BGNetStatusChecker.h */,
+				EEC9F9E51EEA14B80037CA62 /* BGNetStatusChecker.m */,
+				EEC9F9E61EEA14B80037CA62 /* NSObject+BGNetworking.h */,
+				EEC9F9E71EEA14B80037CA62 /* NSObject+BGNetworking.m */,
 				EEC9F9E81EEA14B80037CA62 /* public.cer */,
 			);
 			path = "NetWorking（网络层）";
@@ -380,8 +380,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC9F9F51EEA14F40037CA62 /* MBProgressHUD+MJ.m in Sources */,
-				EEC9F9EC1EEA14B80037CA62 /* NetStatusData.m in Sources */,
-				EEC9F9ED1EEA14B80037CA62 /* NSObject+Request.m in Sources */,
+				EEC9F9EC1EEA14B80037CA62 /* BGNetStatusChecker.m in Sources */,
+				EEC9F9ED1EEA14B80037CA62 /* NSObject+BGNetworking.m in Sources */,
 				EEC9F9E91EEA14B80037CA62 /* AFAppDotNetAPIClient.m in Sources */,
 				EEC9FA0A1EEA15040037CA62 /* AFURLResponseSerialization.m in Sources */,
 				EEC9FA0E1EEA15BB0037CA62 /* UIView+Extension.m in Sources */,
@@ -390,7 +390,7 @@
 				EEC9FA061EEA15040037CA62 /* AFHTTPSessionManager.m in Sources */,
 				EEC9F9AF1EEA14880037CA62 /* AppDelegate.m in Sources */,
 				EEC9FA0B1EEA15040037CA62 /* AFURLSessionManager.m in Sources */,
-				EEC9F9EB1EEA14B80037CA62 /* Model.m in Sources */,
+				EEC9F9EB1EEA14B80037CA62 /* BGBaseModel.m in Sources */,
 				EEC9F9F71EEA14F40037CA62 /* MBProgressHUD.m in Sources */,
 				EEC9FA081EEA15040037CA62 /* AFSecurityPolicy.m in Sources */,
 				EEC9F9EA1EEA14B80037CA62 /* BGNetworking.m in Sources */,
@@ -629,6 +629,7 @@
 				EEC9F9D61EEA14890037CA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEC9F9D71EEA14890037CA62 /* Build configuration list for PBXNativeTarget "BGNetworkingTests" */ = {
 			isa = XCConfigurationList;
@@ -637,6 +638,7 @@
 				EEC9F9D91EEA14890037CA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEC9F9DA1EEA14890037CA62 /* Build configuration list for PBXNativeTarget "BGNetworkingUITests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +647,7 @@
 				EEC9F9DC1EEA14890037CA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

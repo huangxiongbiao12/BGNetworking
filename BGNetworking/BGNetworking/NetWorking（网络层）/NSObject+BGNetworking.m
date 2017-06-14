@@ -6,7 +6,7 @@
 //  Copyright © 2017年 sihan. All rights reserved.
 //
 
-#import "NSObject+Request.h"
+#import "NSObject+BGNetworking.h"
 #import <objc/runtime.h>
 #import "BGNetworking.h"
 

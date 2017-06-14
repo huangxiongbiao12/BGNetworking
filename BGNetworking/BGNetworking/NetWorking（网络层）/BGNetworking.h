@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NetStatusData.h"
+#import "BGNetStatusChecker.h"
 
 @interface BGNetworking : NSObject
 
@@ -21,17 +21,17 @@
 
 +(void)postNoHUDUrl:(NSString*)url parameters:(NSDictionary*)parameters success:(void(^)(id responseObject)) success failure:(void(^)(NSError *error)) failure;
 
-+ (nullable NSURLSessionDataTask *)POST:(NSString *)URLString
++ (nullable NSURLSessionDataTask *)POST:(NSString *_Nullable)URLString
                              parameters:(nullable id)parameters
-              constructingBodyWithBlock:(nullable void (^)(id <AFMultipartFormData> formData))block
-                                success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
-                                failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
+              constructingBodyWithBlock:(nullable void (^)(id<AFMultipartFormData>_Nullable formData))block
+                                success:(nullable void (^)(NSURLSessionDataTask * _Nullable task, id _Nullable responseObject))success
+                                failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure;
 
-+ (nullable NSURLSessionDataTask *)POST:(NSString *)URLString
++ (nullable NSURLSessionDataTask *)POST:(NSString *_Nullable)URLString
                              parameters:(nullable id)parameters
-              constructingBodyWithBlock:(nullable void (^)(id <AFMultipartFormData> formData))block
-                               progress:(nullable void (^)(NSProgress *uploadProgress))uploadProgress
-                                success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
-                                failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
+              constructingBodyWithBlock:(nullable void (^)(id<AFMultipartFormData>_Nullable formData))block
+                               progress:(nullable void (^)(NSProgress * _Nullable uploadProgress))uploadProgress
+                                success:(nullable void (^)(NSURLSessionDataTask * _Nullable task, id _Nullable responseObject))success
+                                failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure;
 
 @end

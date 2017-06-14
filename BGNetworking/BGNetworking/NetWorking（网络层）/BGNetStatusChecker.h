@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
 
-@interface NetStatusData : NSObject
+@interface BGNetStatusChecker : NSObject
 
 @property(nonatomic,assign)AFNetworkReachabilityStatus status;//网络状态
 
-+(NetStatusData*)shareNetStatus;
++(BGNetStatusChecker*)shareNetStatus;
 
 -(void)checkNetStatus;//检查网络状态
 

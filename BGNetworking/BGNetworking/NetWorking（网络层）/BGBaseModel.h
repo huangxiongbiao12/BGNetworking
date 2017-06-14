@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+Request.h"
+#import "NSObject+BGNetworking.h"
 
-@interface Model : NSObject<NSCoding,NSCopying>
+@interface BGBaseModel : NSObject<NSCoding,NSCopying>
 
 //对象转json
 -(NSDictionary*)toJson;

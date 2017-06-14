@@ -43,7 +43,7 @@ static int timeOut = 30;
 
 +(void)getUrl:(NSString*)url parameters:(NSDictionary*)parameters success:(void(^)(id responseObject)) success failure:(void(^)(NSError *error)) failure
 {
-    [[NetStatusData shareNetStatus] checkNetStatus];
+    [[BGNetStatusChecker shareNetStatus] checkNetStatus];
     AFHTTPSessionManager *manager = [AFAppDotNetAPIClient sharedClient];
 ;
     manager.requestSerializer.timeoutInterval = timeOut;
@@ -87,7 +87,7 @@ static int timeOut = 30;
 }
 
 +(void)getNoHUDUrl:(NSString*)url parameters:(NSDictionary*)parameters success:(void(^)(id responseObject)) success failure:(void(^)(NSError *error)) failure {
-    [[NetStatusData shareNetStatus] checkNetStatus];
+    [[BGNetStatusChecker shareNetStatus] checkNetStatus];
     AFHTTPSessionManager *manager = [AFAppDotNetAPIClient sharedClient];
 ;
     manager.requestSerializer.timeoutInterval = timeOut;
@@ -130,7 +130,7 @@ static int timeOut = 30;
 
 #pragma mark-------封装请求
 +(void)postUrl:(NSString*)url parameters:(NSDictionary*)parameters showHUD:(BOOL)show success:(void(^)(id responseObject)) success failure:(void(^)(NSError *error)) failure {
-    [[NetStatusData shareNetStatus] checkNetStatus];
+    [[BGNetStatusChecker shareNetStatus] checkNetStatus];
     AFHTTPSessionManager *manager = [AFAppDotNetAPIClient sharedClient];
 ;
     manager.requestSerializer.timeoutInterval = timeOut;

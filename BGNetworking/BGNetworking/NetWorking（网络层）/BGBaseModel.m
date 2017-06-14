@@ -6,11 +6,11 @@
 //  Copyright © 2015年 sihan. All rights reserved.
 //
 
-#import "Model.h"
+#import "BGBaseModel.h"
 #import "DefineHeader.h"
 #import <objc/runtime.h>
 
-@implementation Model
+@implementation BGBaseModel
 
 -(void)setValue:(id)value forKey:(NSString *)key{
     
